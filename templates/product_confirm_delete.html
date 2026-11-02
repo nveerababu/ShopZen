@@ -1,0 +1,15 @@
+{% extends 'navbar.html' %}
+
+{% block body_block %}
+<div class="container py-5" style="max-width: 480px;">
+  <div class="card shadow-sm border-0 p-4 rounded-4 bg-white text-center">
+    <h5 class="fw-bold mb-3 text-danger">Delete Confirmation</h5>
+    <p class="text-muted">Are you sure you want to permanently delete <strong>"{{ object.name }}"</strong>?</p>
+    <form method="POST" class="d-flex gap-2 justify-content-center mt-3">
+      {% csrf_token %}
+      <button type="submit" class="btn btn-danger px-4">Yes, Delete</button>
+      <a href="{% url 'home' %}" class="btn btn-secondary px-4">Cancel</a>
+    </form>
+  </div>
+</div>
+{% endblock %}

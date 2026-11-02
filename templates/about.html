@@ -1,0 +1,62 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block body_block %}
+<div class="container mt-4 mb-5">
+  <!-- Title -->
+  <h2 class="border-bottom pb-2 mb-3">About Us</h2>
+
+  <!-- Description Section -->
+  <div class="row align-items-center mb-4">
+    <div class="col-md-8">
+      <h4>Welcome to ShopZen</h4>
+      <p>
+        ShopZen is an e-commerce platform dedicated to providing quality products at affordable prices. We focus on dependable service, good customer support, and a simple shopping experience.
+      </p>
+      <p>
+        Our goal is to make online shopping straightforward and reliable for everyone. Browse our collection to find what fits your needs.
+      </p>
+      <a href="{% url 'home' %}" class="btn btn-outline-primary btn-sm">View Products</a>
+    </div>
+    <div class="col-md-4 text-center mt-3 mt-md-0">
+      <img src="{% static 'images/favicon.png' %}" alt="ShopZen Logo" class="img-thumbnail" style="max-height: 180px;">
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <h4 class="mt-4 mb-3">Why Shop With Us?</h4>
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Fast Delivery</h5>
+          <p class="card-text text-secondary">Timely dispatch and secure delivery directly to your location.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Secure Payments</h5>
+          <p class="card-text text-secondary">All checkout processes are protected and safe to use.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Quality Assured</h5>
+          <p class="card-text text-secondary">We ensure all listed items meet standard quality checks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact/Note Box -->
+  <div class="alert alert-secondary mt-3" role="alert">
+    <strong>Need help?</strong> Feel free to reach out to our team if you have questions about our products or orders.
+  </div>
+</div>
+{% endblock %}

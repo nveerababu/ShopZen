@@ -1,0 +1,19 @@
+{% extends 'navbar.html' %}
+
+{% block body_block %}
+<div class="container py-5" style="max-width: 550px;">
+  <div class="card shadow-sm border-0 p-4 rounded-4 bg-white">
+    <h4 class="fw-bold mb-3 text-center">
+      {% if form.instance.pk %}Update Product{% else %}Add New Product{% endif %}
+    </h4>
+    <form method="POST">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <div class="d-flex gap-2 mt-4">
+        <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">Save Product</button>
+        <a href="{% url 'home' %}" class="btn btn-outline-secondary w-100 py-2">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

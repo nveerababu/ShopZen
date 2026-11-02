@@ -1,0 +1,120 @@
+Sidebar Styling
+.sidebar-box {
+  background-color: #f8fafc;
+  border-right: 1px solid #e2e8f0;
+  min-height: calc(100vh - 70px);
+  padding: 24px 16px;
+}
+
+.sidebar-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #64748b;
+  margin-bottom: 14px;
+  padding-left: 12px;
+}
+
+/* Nav links styling */
+.sidebar-link {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+.sidebar-link:hover {
+  background-color: #e2e8f0;
+  color: #0f172a;
+  transform: translateX(4px);
+}
+
+/* Active State */
+.sidebar-link.active {
+  background-color: #0d6efd;
+  color: #ffffff !important;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.25);
+}
+
+/* Disabled State */
+.sidebar-link.disabled {
+  color: #94a3b8;
+  pointer-events: none;
+  background: transparent;
+}
+
+.sidebar-box {
+  background-color: #f8fafc;
+  border-right: 1px solid #e2e8f0;
+  min-height: 100vh;
+  padding: 24px 16px;
+  position: sticky;
+  top: 0;
+}
+
+
+
+
+/* No-JS Action Menu */
+.action-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: inline-block;
+}
+
+.action-btn {
+  background: #f1f5f9;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: #475569;
+}
+
+.action-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background-color: #ffffff;
+  min-width: 130px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  z-index: 100;
+  padding: 6px 0;
+}
+
+.action-menu:hover .action-dropdown {
+  display: block;
+}
+
+.action-dropdown a {
+  color: #334155;
+  padding: 8px 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.action-dropdown a:hover {
+  background-color: #f8fafc;
+}
+
+.action-dropdown a.delete-opt {
+  color: #dc3545;
+}

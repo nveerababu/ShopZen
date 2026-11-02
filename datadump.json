@@ -1,0 +1,810 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$8eQ5MZmEnH5GpJjbCEMgkX$3fTtWqnYxTrfUBpe+InRq5DfHLQuEYNA+8aGcJCZDdc=",
+        "last_login": "2026-10-15T10:03:42.131Z",
+        "is_superuser": true,
+        "username": "veera",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-15T09:52:14.146Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$8QnvsWnH13kSzCjCzO21VE$VPxssRN2pzcFCgK2AM+G4RtwhovfD8S+4W5EnwVO6gE=",
+        "last_login": "2026-10-27T14:10:31.048Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-26T04:04:09.048Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$171VbjyFLy3UVUD5ctYTmR$9VI2Zhlk0Vih1GFq2/VSaoEFzpB2iXlBWYLnOtYK6qo=",
+        "last_login": "2026-10-27T09:37:17Z",
+        "is_superuser": false,
+        "username": "nag",
+        "first_name": "naga",
+        "last_name": "babu",
+        "email": "neeliveerababu47@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-27T09:21:06Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$biECqLniXorx2avioG8iqt$9iCkSyhSwxgK6iPhkRU2GCKth9ZkcjN8CTN71LqEIsE=",
+        "last_login": "2026-10-27T13:38:50.317Z",
+        "is_superuser": false,
+        "username": "santhu",
+        "first_name": "santhu",
+        "last_name": "n",
+        "email": "naddunurinsanthosh@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-10-27T09:54:47.261Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "etf71edi99h4k3bsf12hajk1f3zy3mva",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAoDFCX7j0DmWFAqoYmpV0Z765NutDtf-_9l4i4rTVuPS9xYnEWXpx-N8L0yG0HfMd2m2Wa27pMJHdFHrTL68z5eTncv4OKvX7rYLUxmsYyJhtA8eBKcgAUiEvCQMpbzt76VNgrA1qprIG8ATeQRgzi_QHcGTei:1xLhsl:kg5tg0WI7cgRBYnAPUyMkXffTscrXNJOV9Qio4Ufl9Y",
+        "expire_date": "2026-11-10T14:10:31.049Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "g2nh4c8m9gd4v7kef49dpbukfus9qi5s",
+    "fields": {
+        "session_data": "eyJjYXJ0Ijp7IjIiOjIsIjMiOjEsIjQiOjF9fQ:1xGYsj:-8OLfPfvni2JZcOct4nEqz9NVHmJBipWASfaR2lAQBY",
+        "expire_date": "2026-10-27T09:33:13.662Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "g62a2altsmjj3o5aldgc4sqjuchtjbpt",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAoDFCX7j0DmWFAqoYmpV0Z765NutDtf-_9l4i4rTVuPS9xYnEWXpx-N8L0yG0HfMd2m2Wa27pMJHdFHrTL68z5eTncv4OKvX7rYLUxmsYyJhtA8eBKcgAUiEvCQMpbzt76VNgrA1qprIG8ATeQRgzi_QHcGTei:1xLCno:asKiPGO5altr5RYPoyI39x4Q2XLRPVtC6s5--9Xk-lo",
+        "expire_date": "2026-11-09T04:59:20.200Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uhy9854x7e0qfnlw953x75w27ctmzcjx",
+    "fields": {
+        "session_data": ".eJxVjEEOgyAQRe_CuiEOoKDL7nsGMwxDsW0gQV0Z715NXLTb_95_mxhxXdK4zlzHKYhBAIjb7-iR3pxPEl6Yn0VSyUudvDwVedFZPkrgz_1y_wIJ53S8e4zGgGOjXWcbBnS-ZYvUmkDaobJguVMqNpEYwJOK1ECrVU8Rbaf5iBLWRQzbvn8BQ7o7dw:1xLhOq:_-KTIy3T21fjzZUyaKtcHA-GDySTtLfLaWbGV7rz1a0",
+        "expire_date": "2026-11-10T13:39:36.047Z"
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 2,
+    "fields": {
+        "name": "blazer33",
+        "category": "cotton",
+        "price": "500.00",
+        "image_path": "images/img4.png",
+        "stock": 8
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 3,
+    "fields": {
+        "name": "macbook m1",
+        "category": "Laptops",
+        "price": "300.00",
+        "image_path": "images/img7.png",
+        "stock": 6
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 4,
+    "fields": {
+        "name": "Cotton shirt",
+        "category": "cotton",
+        "price": "400.00",
+        "image_path": "images/mn26.png",
+        "stock": 6
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 5,
+    "fields": {
+        "name": "Black Suit",
+        "category": "formal",
+        "price": "5500.00",
+        "image_path": "images/img1.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 6,
+    "fields": {
+        "name": "Grey Blazzer",
+        "category": "formal",
+        "price": "3000.00",
+        "image_path": "images/img3.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 7,
+    "fields": {
+        "name": "Lenove Laptop",
+        "category": "Laptops",
+        "price": "550000.00",
+        "image_path": "images/lp1.png",
+        "stock": 9
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 8,
+    "fields": {
+        "name": "HP Victus Laptop",
+        "category": "Laptops",
+        "price": "77000.00",
+        "image_path": "images/lp17.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 9,
+    "fields": {
+        "name": "ASUS Gaming V16",
+        "category": "Laptops",
+        "price": "880000.00",
+        "image_path": "images/lp18.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 10,
+    "fields": {
+        "name": "Macbook M5 Pro",
+        "category": "Laptops",
+        "price": "250000.00",
+        "image_path": "images/lp22.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 11,
+    "fields": {
+        "name": "IPhone Duo",
+        "category": "Mobiles",
+        "price": "400000.00",
+        "image_path": "images/mb10.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 12,
+    "fields": {
+        "name": "IPhone 17 Pro Max",
+        "category": "Mobiles",
+        "price": "190000.00",
+        "image_path": "images/mb6.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 13,
+    "fields": {
+        "name": "IPhone 15",
+        "category": "Mobiles",
+        "price": "90000.00",
+        "image_path": "images/mb9.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 14,
+    "fields": {
+        "name": "Samsung Galaxy S26 Ultra",
+        "category": "Mobiles",
+        "price": "174999.00",
+        "image_path": "images/mb12.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 15,
+    "fields": {
+        "name": "Samsung Galxy Z Fold 8",
+        "category": "Mobiles",
+        "price": "200000.00",
+        "image_path": "images/mb13.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 16,
+    "fields": {
+        "name": "Samsung GA]alaxy S25",
+        "category": "Mobiles",
+        "price": "99000.00",
+        "image_path": "images/mb14.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 17,
+    "fields": {
+        "name": "Blue T Shirt",
+        "category": "Men",
+        "price": "399.00",
+        "image_path": "images/mn22.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 18,
+    "fields": {
+        "name": "Check Shirt",
+        "category": "Men",
+        "price": "278.00",
+        "image_path": "images/mn23.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 19,
+    "fields": {
+        "name": "Blue Lines Shirt",
+        "category": "Men",
+        "price": "799.00",
+        "image_path": "images/mn27.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 20,
+    "fields": {
+        "name": "Kurta",
+        "category": "Kids",
+        "price": "1200.00",
+        "image_path": "images/kid1.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 21,
+    "fields": {
+        "name": "Pant& Shirt Combo",
+        "category": "Kids",
+        "price": "1400.00",
+        "image_path": "images/kid2.png.webp",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 22,
+    "fields": {
+        "name": "Night Dress",
+        "category": "Kids",
+        "price": "879.00",
+        "image_path": "images/kid3.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 23,
+    "fields": {
+        "name": "Green Handloom Saree",
+        "category": "Women",
+        "price": "2899.00",
+        "image_path": "images/wo1.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.product",
+    "pk": 24,
+    "fields": {
+        "name": "Off White Handloom Saree",
+        "category": "Women",
+        "price": "2300.00",
+        "image_path": "images/wo2.png",
+        "stock": 10
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "total": "1800.00",
+        "created_at": "2026-10-26T04:39:36.533Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 2,
+    "fields": {
+        "user": null,
+        "total": "400.00",
+        "created_at": "2026-10-26T04:59:03.050Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 3,
+    "fields": {
+        "user": null,
+        "total": "500.00",
+        "created_at": "2026-10-27T05:06:51.800Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "total": "500.00",
+        "created_at": "2026-10-27T05:12:34.542Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "total": "300.00",
+        "created_at": "2026-10-27T05:12:40.223Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "total": "400.00",
+        "created_at": "2026-10-27T05:12:44.077Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 7,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "total": "500.00",
+        "created_at": "2026-10-27T05:12:56.796Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "total": "500.00",
+        "created_at": "2026-10-27T05:33:46.861Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "total": "2100.00",
+        "created_at": "2026-10-27T05:47:07.441Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 10,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "total": "500.00",
+        "created_at": "2026-10-27T05:47:21.042Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 11,
+    "fields": {
+        "user": null,
+        "total": "550000.00",
+        "created_at": "2026-10-27T09:14:22.804Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 12,
+    "fields": {
+        "user": null,
+        "total": "500.00",
+        "created_at": "2026-10-27T09:47:36.944Z"
+    }
+},
+{
+    "model": "testapp.order",
+    "pk": 13,
+    "fields": {
+        "user": [
+            "santhu"
+        ],
+        "total": "300.00",
+        "created_at": "2026-10-27T13:39:36.041Z"
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "product": 2,
+        "product_name": "blazer33",
+        "price": "500.00",
+        "quantity": 3
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 2,
+    "fields": {
+        "order": 1,
+        "product": 3,
+        "product_name": "macbook m1",
+        "price": "300.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 3,
+    "fields": {
+        "order": 2,
+        "product": 4,
+        "product_name": "Cotton shirt",
+        "price": "400.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 4,
+    "fields": {
+        "order": 3,
+        "product": 2,
+        "product_name": "blazer33",
+        "price": "500.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 5,
+    "fields": {
+        "order": 4,
+        "product": 2,
+        "product_name": "blazer33",
+        "price": "500.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 6,
+    "fields": {
+        "order": 5,
+        "product": 3,
+        "product_name": "macbook m1",
+        "price": "300.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 7,
+    "fields": {
+        "order": 6,
+        "product": 4,
+        "product_name": "Cotton shirt",
+        "price": "400.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 8,
+    "fields": {
+        "order": 7,
+        "product": 2,
+        "product_name": "blazer33",
+        "price": "500.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 9,
+    "fields": {
+        "order": 8,
+        "product": 2,
+        "product_name": "blazer33",
+        "price": "500.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 10,
+    "fields": {
+        "order": 9,
+        "product": 2,
+        "product_name": "blazer33",
+        "price": "500.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 11,
+    "fields": {
+        "order": 9,
+        "product": 3,
+        "product_name": "macbook m1",
+        "price": "300.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 12,
+    "fields": {
+        "order": 9,
+        "product": 4,
+        "product_name": "Cotton shirt",
+        "price": "400.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 13,
+    "fields": {
+        "order": 10,
+        "product": 2,
+        "product_name": "blazer33",
+        "price": "500.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 14,
+    "fields": {
+        "order": 11,
+        "product": 7,
+        "product_name": "Lenove Laptop",
+        "price": "550000.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 15,
+    "fields": {
+        "order": 12,
+        "product": 2,
+        "product_name": "blazer33",
+        "price": "500.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "testapp.orderitem",
+    "pk": 16,
+    "fields": {
+        "order": 13,
+        "product": 3,
+        "product_name": "macbook m1",
+        "price": "300.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-10-15T09:52:57.133Z",
+        "user": [
+            "veera"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "revathi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-10-15T09:52:57.134Z",
+        "user": [
+            "veera"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "root",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-10-27T09:20:42.624Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "balraju",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-10-27T09:20:42.624Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "9",
+        "object_repr": "kishore",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-10-27T09:20:42.624Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "prasad",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-10-27T09:20:42.624Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "raghu",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-10-27T09:20:42.624Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "revathi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-10-27T13:36:28.499Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "10",
+        "object_repr": "nag",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+}
+]

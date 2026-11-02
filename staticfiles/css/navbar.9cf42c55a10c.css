@@ -1,0 +1,27 @@
+/* Search box width fix */
+.nav-search-box input {
+  width: 170px !important;
+  font-size: 0.85rem;
+}
+
+/* Navbar links space reduce */
+.nav-links-box .nav-link {
+  font-size: 0.88rem;
+  padding-left: 0.45rem !important;
+  padding-right: 0.45rem !important;
+}
+
+/* User pill styling */
+.user-badge {
+  background-color: #f1f5f9;
+  border-radius: 50px;
+  padding: 3px 8px;
+  font-size: 0.8rem;
+}
+
+/* Responsive collapse */
+@media (max-width: 991.98px) {
+  .nav-search-box input {
+    width: 100% !important;
+  }
+}

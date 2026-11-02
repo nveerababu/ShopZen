@@ -1,0 +1,53 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block body_block %}
+<div class="container mt-4 mb-5">
+  <!-- Title -->
+  <h2 class="border-bottom pb-2 mb-3">Latest Updates & Announcements</h2>
+
+  <!-- Updates List -->
+  <div class="list-group">
+    <!-- Update Item 1 -->
+    <div class="list-group-item list-group-item-action flex-column align-items-start mb-3 border rounded">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1 text-primary">New Categories & Products Added</h5>
+        <small class="text-muted">October 2026</small>
+      </div>
+      <p class="mb-1 text-secondary">
+        We have expanded our inventory with exciting new collections. Explore our home page to check out the latest arrivals.
+      </p>
+      <small class="badge bg-secondary">Catalog</small>
+    </div>
+
+    <!-- Update Item 2 -->
+    <div class="list-group-item list-group-item-action flex-column align-items-start mb-3 border rounded">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1 text-primary">System & Security Enhancements</h5>
+        <small class="text-muted">September 2026</small>
+      </div>
+      <p class="mb-1 text-secondary">
+        Our database infrastructure and user authentication have been upgraded for faster checkout and enhanced data protection.
+      </p>
+      <small class="badge bg-success">Maintenance</small>
+    </div>
+
+    <!-- Update Item 3 -->
+    <div class="list-group-item list-group-item-action flex-column align-items-start mb-3 border rounded">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1 text-primary">Free Shipping Weekend Sale</h5>
+        <small class="text-muted">August 2026</small>
+      </div>
+      <p class="mb-1 text-secondary">
+        Enjoy zero shipping charges on all eligible domestic orders. Stay tuned for upcoming promotional offers.
+      </p>
+      <small class="badge bg-info text-dark">Offer</small>
+    </div>
+  </div>
+
+  <!-- Subscription Notice -->
+  <div class="alert alert-secondary mt-4" role="alert">
+    <strong>Stay tuned!</strong> We regularly post news about new stock, holiday discounts, and platform improvements here.
+  </div>
+</div>
+{% endblock %}

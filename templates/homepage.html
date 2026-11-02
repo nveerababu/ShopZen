@@ -1,0 +1,103 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block body_block %}
+<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+
+<div class="container-fluid px-0">
+  <div class="row g-0">
+    
+    <!-- 1. Left Sidebar -->
+    <div class="col-md-3 col-lg-2 sidebar-box">
+      <div class="sidebar-title text-uppercase">Categories</div>
+      <nav class="nav flex-column gap-1">
+        <a class="sidebar-link {% if selected_category == 'all' %}active{% endif %}" href="{% url 'home' %}?category=all">All Items</a>
+        <a class="sidebar-link {% if selected_category == 'formal' %}active{% endif %}" href="{% url 'home' %}?category=formal">Formal Blazers</a>
+        <a class="sidebar-link {% if selected_category == 'cotton' %}active{% endif %}" href="{% url 'home' %}?category=cotton">Cotton T-Shirts</a>
+        <a class="sidebar-link {% if selected_category == 'Men' %}active{% endif %}" href="{% url 'home' %}?category=Men">Men's</a>
+        <a class="sidebar-link {% if selected_category == 'Women' %}active{% endif %}" href="{% url 'home' %}?category=Women">Women's</a>
+        <a class="sidebar-link {% if selected_category == 'Kids' %}active{% endif %}" href="{% url 'home' %}?category=Kids">Kid's</a>
+        <a class="sidebar-link {% if selected_category == 'Mobiles' %}active{% endif %}" href="{% url 'home' %}?category=Mobiles">Mobile's</a>
+        <a class="sidebar-link {% if selected_category == 'Laptops' %}active{% endif %}" href="{% url 'home' %}?category=Laptops">Laptop's</a>
+      </nav>
+    </div>
+
+    <!-- 2. Right Products Grid -->
+    <div class="col-md-9 col-lg-10 py-4 px-4">
+      
+      <!-- Top Bar: Title & Add Product Button -->
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 class="fw-bold mb-0 text-capitalize">{{ selected_category }} Items</h4>
+        <a href="{% url 'product_add' %}" class="btn btn-success btn-sm px-3 shadow-sm">
+          + Add Product
+        </a>
+      </div>
+
+      <div class="row g-4 text-center">
+        {% for product in products %}
+          <div class="col-xl-4 col-md-6">
+            <div class="card h-100 border rounded-3 shadow-sm p-3 position-relative bg-white">
+              
+              <!-- IKKADA ADD CHEYANDI: No-JS Hover Action Menu -->
+              <div class="action-menu">
+                <div class="action-btn">&#8942;</div>
+                <div class="action-dropdown">
+                  <a href="{% url 'product_update' product.id %}">
+                    <span class="me-2 text-primary">&#9998;</span> Edit
+                  </a>
+                  <a href="{% url 'product_delete' product.id %}" class="delete-opt">
+                    <span class="me-2 text-danger">&#128465;</span> Delete
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Image -->
+              <div class="d-flex justify-content-center align-items-center" style="height: 220px;">
+                <img src="{% static product.image_path|default:'images/img1.png' %}" class="img-fluid" style="max-height: 200px; object-fit: contain;" alt="{{ product.name }}">
+              </div>
+
+              <div class="fw-bold fs-6 mt-3">{{ product.name }}</div>
+              <div class="text-muted mb-1">&#8377; {{ product.price }}</div>
+              {% if product.stock == 0 %}
+                <div class="mb-3"><span class="badge bg-danger">Sold Out</span></div>
+              {% elif product.stock <= 5 %}
+                <div class="mb-3"><span class="badge bg-warning text-dark">Only {{ product.stock }} left</span></div>
+              {% else %}
+                <div class="mb-3"><span class="badge bg-success">In Stock</span></div>
+              {% endif %}
+
+             
+<div class="d-flex justify-content-center gap-2 mt-auto">
+
+    <form method="POST"
+          action="{% url 'add_to_cart' product.id %}"
+          class="m-0">
+        {% csrf_token %}
+        <button type="submit"
+                class="btn btn-outline-primary btn-sm px-3" {% if product.stock == 0 %}disabled{% endif %}>
+            Add to Cart
+        </button>
+    </form>
+
+    
+
+<a class="btn btn-primary btn-sm px-3 {% if product.stock == 0 %}disabled{% endif %}"
+   href="{% url 'buy_now' product.id %}">
+    Buy Now
+</a>
+
+
+</div>
+
+            </div>
+          </div>
+        {% empty %}
+          <div class="col-12 py-5 text-muted">No products available in this category.</div>
+        {% endfor %}
+      </div>
+
+    </div>
+
+  </div>
+</div>
+{% endblock %}

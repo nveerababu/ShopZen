@@ -1,0 +1,62 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block body_block %}
+<div class="container mt-4 mb-5">
+  <!-- Title -->
+  <h2 class="border-bottom pb-2 mb-3">Contact Us</h2>
+
+  <div class="row">
+    <!-- Contact Information -->
+    <div class="col-md-5 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title mb-3">Get in Touch</h5>
+          <p class="text-secondary">Have questions regarding your order, products, or account? Reach out to us directly.</p>
+          
+          <p class="mb-2"><strong>Email:</strong> support@shopzen.com</p>
+          <p class="mb-2"><strong>Phone:</strong> +91 98765 43210</p>
+          <p class="mb-2"><strong>Location:</strong> Hyderabad, Telangana, India</p>
+          <p class="mb-0"><strong>Working Hours:</strong> Mon - Sat (9:00 AM - 6:00 PM)</p><br><br>
+          <div class="d-flex justify-content-center align-items-center flex-grow-1 my-3">
+          <img src="{% static 'images/favicon.png' %}" alt="ShopZen Logo" class="img-fluid" style="max-height: 150px; width: auto;">
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-md-7 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title mb-3">Send a Message</h5>
+          <form method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Query topic" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-outline-primary btn-sm">Submit Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
