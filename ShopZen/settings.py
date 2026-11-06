@@ -162,7 +162,7 @@ ALLOWED_HOSTS = [
     host.strip()
     for host in os.environ.get(
         'DJANGO_ALLOWED_HOSTS',
-        'localhost,127.0.0.1,ShopZen-env.eba-tqv73t8w.ap-south-2.elasticbeanstalk.com'
+        'localhost,127.0.0.1'
     ).split(',')
     if host.strip()
 ]
